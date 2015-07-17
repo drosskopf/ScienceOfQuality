@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScienceOfQuality", "ScienceOfQuality\ScienceOfQuality.csproj", "{04639D87-BF19-4532-921D-A0DD4F4AFE0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScienceOfQuality.Tests", "ScienceOfQuality.Tests\ScienceOfQuality.Tests.csproj", "{AA655BBC-53A6-47AE-91B0-4208E4ACA219}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04639D87-BF19-4532-921D-A0DD4F4AFE0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04639D87-BF19-4532-921D-A0DD4F4AFE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04639D87-BF19-4532-921D-A0DD4F4AFE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04639D87-BF19-4532-921D-A0DD4F4AFE0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA655BBC-53A6-47AE-91B0-4208E4ACA219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA655BBC-53A6-47AE-91B0-4208E4ACA219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA655BBC-53A6-47AE-91B0-4208E4ACA219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA655BBC-53A6-47AE-91B0-4208E4ACA219}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

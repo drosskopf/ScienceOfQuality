@@ -1,0 +1,50 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<form>
+    <div class="col-md-6">
+        <label for="issue">Issue:</label>
+        <input type="text" class="form-control" id="issue" />
+        <label for="foundBy">Found By</label>
+        <input type="text" class="form-control" id="foundBy"/>
+        <label for="issueType">Type</label>
+        <select class="form-control" id="issueType">
+            <option value="0">Bug</option>
+            <option value="1">Enhancement</option>
+            <option value="2">Information Request</option>
+        </select>
+    </div>
+    <div class="col-md-6">
+        <label for="description">Description:</label>
+        <textarea class="form-control" id="description"></textarea>
+        <label for="severity">Severity</label>
+    
+        <div class="radio" id="severity">
+            <label>
+                <input type="radio" name="severity" id="severityCritical" value="0">
+                Critical
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" name="severity" id="severityHigh" value="1">
+                High
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" name="severity" id="serverityMedium" value="2">
+                Medium
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" name="severity" id="serverityLow" value="3">
+                Low
+            </label>
+        </div>
+    </div>
+
+
+</form>
+
