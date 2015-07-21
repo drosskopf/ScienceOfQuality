@@ -1,0 +1,17 @@
+﻿@using System.Web.Configuration
+@using ScienceOfQuality.Models
+
+<div class="row">
+    <div class="col-md-4">Ticket Number</div>
+    <div class="col-md-4">Issue</div>
+    <div class="col-md-4">Severity</div>
+</div>
+@foreach (SupportTicketModel ticket in SoqData.Tickets)
+{
+    <div class="row">
+        <div class="col-md-4">@ticket.Id</div>    
+        <div class="col-md-4">@ticket.Issue</div> 
+        <div class="col-md-4">@ticket.Severity</div>       
+    </div>
+    
+}

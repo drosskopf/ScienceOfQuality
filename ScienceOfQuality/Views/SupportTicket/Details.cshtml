@@ -1,0 +1,30 @@
+﻿@using ScienceOfQuality.Models
+@model SupportTicketModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row">
+    <div class="col-md-4">Ticket Number</div>
+    <div class="col-md-4">Issue</div>
+    <div class="col-md-4">Severity</div>
+</div>
+@foreach (SupportTicketModel ticket in SoqData.Tickets)
+{
+    <div class="row">
+        <div class="col-md-4">@Html.ActionLink(@ticket.Id.ToString(),"Edit",new{Id=@ticket.Id})@ticket.Id</div>
+        <div class="col-md-4">@ticket.Issue</div>
+        <div class="col-md-4">@ticket.Severity</div>
+    </div>
+
+}
+<div class="row">
+    @using (Html.BeginForm("Create", "SupportTicket", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+
+        <button type="submit" class="btn btn-default">Create</button>
+}
+
+</div>
+
+
+
